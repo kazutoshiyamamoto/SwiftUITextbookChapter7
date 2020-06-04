@@ -20,6 +20,21 @@ struct ContentView: View {
     }
 }
 
+struct CheckMarkPerson: View {
+    @Binding var isChecked: Bool
+    
+    var body: some View {
+        Button(action: {
+            self.isChecked.toggle()
+        }) {
+            Image(systemName: isChecked ? "person.crop.circle.badge.checkmark" : "person.crop.circle")
+                .foregroundColor(isChecked ? .blue : .gray)
+        }
+        .imageScale(.large)
+        .frame(width: 40)
+    }
+}
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
