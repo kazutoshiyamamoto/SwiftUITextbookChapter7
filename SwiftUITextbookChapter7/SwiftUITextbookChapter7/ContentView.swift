@@ -11,11 +11,28 @@ import SwiftUI
 struct ContentView: View {
     // チェックの状態
     @State var isMyChecked1: Bool = false
+    @State var isMyChecked2: Bool = false
     
     var body: some View {
-        HStack {
-            Text("担当者1のチェック")
-            CheckMarkPerson(isChecked: $isMyChecked1)
+        VStack {
+            HStack {
+                Text("担当者1のチェック")
+                CheckMarkPerson(isChecked: $isMyChecked1)
+            }
+            HStack {
+                Text("担当者2のチェック")
+                CheckMarkPerson(isChecked: $isMyChecked2)
+            }
+            
+            if isMyChecked1 && isMyChecked2 {
+                Text("全員チェック済み")
+                    .foregroundColor(.blue)
+                    .padding()
+            } else {
+                Text("チェック待ち")
+                    .foregroundColor(.red)
+                    .padding()
+            }
         }
     }
 }
