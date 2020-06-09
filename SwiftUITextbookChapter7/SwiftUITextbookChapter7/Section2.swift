@@ -9,8 +9,14 @@
 import SwiftUI
 
 struct Section2: View {
+    @State var kingaku: String = ""
+    @State var ninzu: String = ""
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Section2_NumberTextField(title: "金額", number: $kingaku)
+            Section2_NumberTextField(title: "人数", number: $ninzu)
+        }
     }
 }
 
