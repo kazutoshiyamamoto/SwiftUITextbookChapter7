@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FD8867E22498FE5F0013BD57 /* Section3_Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8867E12498FE5F0013BD57 /* Section3_Stopwatch.swift */; };
+		FD8867E4249A65480013BD57 /* Section3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8867E3249A65480013BD57 /* Section3.swift */; };
 		FDA764EF2487DCAC00A3F53E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA764EE2487DCAC00A3F53E /* AppDelegate.swift */; };
 		FDA764F12487DCAC00A3F53E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA764F02487DCAC00A3F53E /* SceneDelegate.swift */; };
 		FDA764F32487DCAC00A3F53E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA764F22487DCAC00A3F53E /* ContentView.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		FD8867E12498FE5F0013BD57 /* Section3_Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section3_Stopwatch.swift; sourceTree = "<group>"; };
+		FD8867E3249A65480013BD57 /* Section3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section3.swift; sourceTree = "<group>"; };
 		FDA764EB2487DCAC00A3F53E /* SwiftUITextbookChapter7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITextbookChapter7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA764EE2487DCAC00A3F53E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDA764F02487DCAC00A3F53E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				FDA764F22487DCAC00A3F53E /* ContentView.swift */,
 				FDA76502248BCE8F00A3F53E /* Section2.swift */,
 				FDA76504248BCF3300A3F53E /* Section2_NumberTextField.swift */,
+				FD8867E3249A65480013BD57 /* Section3.swift */,
 				FD8867E12498FE5F0013BD57 /* Section3_Stopwatch.swift */,
 				FDA764F42487DCAF00A3F53E /* Assets.xcassets */,
 				FDA764F92487DCAF00A3F53E /* LaunchScreen.storyboard */,
@@ -161,6 +164,7 @@
 				FDA764EF2487DCAC00A3F53E /* AppDelegate.swift in Sources */,
 				FDA764F12487DCAC00A3F53E /* SceneDelegate.swift in Sources */,
 				FDA764F32487DCAC00A3F53E /* ContentView.swift in Sources */,
+				FD8867E4249A65480013BD57 /* Section3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
